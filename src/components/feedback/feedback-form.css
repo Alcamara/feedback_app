@@ -1,0 +1,79 @@
+
+
+.card {
+    height: 50vh;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h1 {
+    margin: 25px ;
+}
+
+.card .card-rating {
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rate{
+    color: black;
+    font-weight: 300;
+    background-color: rgb(171, 167, 167);
+    height: 60px;
+    width: 60px;
+    padding:15px;
+    margin: 20px 10px ;
+    border-radius: 60px;
+}
+
+.rate:hover {
+    color: black;
+    background-color: gray;
+}
+
+.rating-select {
+    color: #ffffff;
+    background-color: rgb(234, 79, 105);
+}
+
+.rating-select:hover {
+    color: #ffffff;
+    background-color: rgb(229, 74, 100);
+}
+
+.card-input{
+    height: 60px;
+    width: 70%;
+    padding: 10px;
+    margin: 25px ;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-input input {
+    border-style: none;
+    width: 80%;
+}
+
+
+.card-input button {
+    color: white;
+    background-color: rgb(234, 79, 105);;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
